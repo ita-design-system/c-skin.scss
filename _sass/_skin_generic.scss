@@ -1,0 +1,28 @@
+/*
+    C-SKIN
+    v0.1.0
+    Composant générique CSS ITADS
+    https://github.com/ita-design-system/c-skin.scss
+*/
+// SCSS map
+$briks-components-generic: ( 
+    // Nom du composant
+    skin: ( 
+        // Composant activé true ou false
+        enabled: true, 
+        // Responsive activé true ou false
+        responsive: true, 
+        // Liste des propriétés c-skin par défaut
+        defaults: (),
+        // Rendu: 
+        // c-skin {
+        // }
+        // Liste des modifieurs contenant chacun une liste de propriétés qui 
+        // soit surchargent les propriétés par défaut
+        // soit ajoutent des propriétés
+        // soit les deux
+        modifiers: ( 
+            
+        )
+    )
+);
