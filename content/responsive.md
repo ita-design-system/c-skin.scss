@@ -31,13 +31,13 @@ a le même effet que les classes CSS
 ```html
 <!-- Avec des classes responsives -->
 <ul class="c-skin m-ls-none--xs">
-    <li>Pas de style en taille d'écran xs</li>
-    <li>Pas de style en taille d'écran xs</li>
+    <li>Pas de list-style en taille d'écran xs</li>
+    <li>Pas de list-style en taille d'écran xs</li>
 </ul>
 <!-- Avec l'attribut responsive -->
 <ul class="c-skin" m-ls-none="xs,sm">
-    <li>Pas de style en tailles d'écran sm et xs</li>
-    <li>Pas de style en tailles d'écran sm et xs</li>
+    <li>Pas de list-style en tailles d'écran sm et xs</li>
+    <li>Pas de list-style en tailles d'écran sm et xs</li>
 </ul>
 <!-- DEMO UNIQUEMENT -->
 <style>

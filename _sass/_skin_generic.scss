@@ -13,7 +13,16 @@ $briks-components-generic: (
         // Responsive activé true ou false
         responsive: true, 
         // Liste des propriétés c-skin par défaut
-        defaults: (),
+        defaults: (
+            pseudo-classes: (
+                // c-skin:disabled uniquement pour les <button>
+                disabled: (
+                    pointer-events: none,
+                    color: grey,
+                    background-color: lightgrey
+                )
+            )
+        ),
         // Rendu: 
         // c-skin {
         // }
