@@ -30,17 +30,15 @@ a le même effet que les classes CSS
 
 ```html
 <!-- Avec des classes responsives -->
-<div class="c-skin m-main-end--xs">
-    <div>Je m'aligne au bout de l'axe "main"<br> sur la taille d'écran xs<br> via des classes CSS</div>
-</div>
-<!-- Avec l'attribut responsive - 1 taille d'écran -->
-<div class="c-skin" m-main-end="xs">
-    <div>Je m'aligne au bout de l'axe "main"<br> sur la taille d'écran xs<br> via l'attribut responsive</div>
-</div>
-<!-- Avec l'attribut responsive - multiples tailles d'écrans -->
-<div class="c-skin" m-main-end="xs,sm">
-    <div>Je m'aligne au bout de l'axe "main"<br> sur les tailles d'écran xs et sm<br> via l'attribut responsive</div>
-</div>
+<ul class="c-skin m-ls-none--xs">
+    <li>Pas de style en taille d'écran xs</li>
+    <li>Pas de style en taille d'écran xs</li>
+</ul>
+<!-- Avec l'attribut responsive -->
+<ul class="c-skin" m-ls-none="xs,sm">
+    <li>Pas de style en tailles d'écran sm et xs</li>
+    <li>Pas de style en tailles d'écran sm et xs</li>
+</ul>
 <!-- DEMO UNIQUEMENT -->
 <style>
     body {
@@ -51,21 +49,6 @@ a le même effet que les classes CSS
         font-size: 1rem;
         line-height: 1.5rem;
         padding-bottom: 50vh;
-    }
-    .c-skin {
-        background-color: var(--ita-color-primary-800);
-    }
-    .c-skin > * {
-        background-color: var(--ita-color-primary-500);
-        color: var(--ita-color-primary-900);
-        border: var(--ita-border-6);
-        padding: var(--ita-spacing-4);
-    }
-    .c-skin + .c-skin {
-        margin-top: var(--ita-spacing-4);
-    }
-    .c-skin + h2 {
-        margin-top: var(--ita-spacing-12);
     }
 </style>
 ```

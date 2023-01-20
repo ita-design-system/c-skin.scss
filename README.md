@@ -8,7 +8,7 @@ Composant CSS dédié aux aspects et apparences des éléments.
 
 Liste des propriétés CSS utilisées par le composant
 
-* [background-color](https://developer.mozilla.org/fr/docs/Web/CSS/background-color)
+* [background](https://developer.mozilla.org/fr/docs/Web/CSS/background)
 * [border](https://developer.mozilla.org/fr/docs/Web/CSS/border)
 * [border-radius](https://developer.mozilla.org/fr/docs/Web/CSS/border-radius)
 * [box-shadow](https://developer.mozilla.org/fr/docs/Web/CSS/box-shadow)
@@ -18,6 +18,7 @@ Liste des propriétés CSS utilisées par le composant
 * [opacity](https://developer.mozilla.org/fr/docs/Web/CSS/opacity)
 * [outline](https://developer.mozilla.org/fr/docs/Web/CSS/outline)
 * [pointer-events](https://developer.mozilla.org/fr/docs/Web/CSS/pointer-events)
+* [transition](https://developer.mozilla.org/fr/docs/Web/CSS/transition)
 
 ## Typologie d'un composant générique
 
@@ -60,14 +61,55 @@ $briks-components-generic: (
         // Liste des propriétés c-skin par défaut
         defaults: (),
         // Rendu: 
-        // .c-skin {
+        // c-skin {
         // }
         // Liste des modifieurs contenant chacun une liste de propriétés qui 
         // soit surchargent les propriétés par défaut
         // soit ajoutent des propriétés
         // soit les deux
-        modifiers: (
-            
+        modifiers: ( 
+            // c-skin m-cur-pointer
+            cur-pointer: (
+                cursor: pointer
+            ),
+            // c-skin m-transition-1
+            transition-1: (
+                transition: all 300ms
+            ),
+            // c-skin m-opa-0
+            opa-0: (
+                opacity: 0
+            ),
+            // c-skin m-ls-none
+            ls-none: (
+                list-style: none
+            ),
+            // c-skin m-b-0
+            b-0: (
+                border: none
+            ),
+            // c-skin m-brad-0
+            brad-0: (
+                border-radius: 0
+            ),
+            // c-skin m-c-0
+            c-0: (
+                color: transparent
+            ),
+            // c-skin m-bc-0
+            bc-0: (
+                background-color: transparent
+            ),
+            // c-skin m-pe-none
+            pe-none: (
+                pointer-events: none
+            ),
+            // c-skin m-disabled
+            disabled: (
+                pointer-events: none,
+                color: grey,
+                background-color: lightgrey
+            )
         )
     )
 );
@@ -95,12 +137,38 @@ $briks-components-generic: (
         // Responsive activée true ou false pour l'extension
         responsive: true, 
         // Valeurs par défaut de l'extension
-        defaults: (),
+        defaults: (
+            pseudo-classes: (
+                // c-skin:disabled uniquement pour les <button>
+                disabled: (
+                    pointer-events: none,
+                    color: grey,
+                    background-color: yellow
+                )
+            )
+        ),
         // Liste des modifieurs contenant chacun une liste de propriétés qui 
         // soit surchargent les propriétés par défaut
         // soit ajoutent des propriétés
         // soit les deux
         modifiers: ( 
+            // c-skin m-scheme-1
+            scheme-1: (
+                background-color: my-color(primary-500),
+                color: my-color(neutral-900),
+                pseudo-classes: (
+                    hover: (
+                        background-color: my-color(primary-700),
+                        color: my-color(neutral-900),
+                    )
+                )
+            ),
+            // c-skin m-disabled
+            disabled: (
+                pointer-events: none,
+                color: grey,
+                background-color: lightgrey
+            )
         )
     )
 );
