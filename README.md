@@ -118,6 +118,10 @@ $briks-components-generic: (
                 pointer-events: none,
                 color: grey,
                 background-color: lightgrey
+            ),
+            // c-skin m-appearance-none
+            appearance-none: (
+                -webkit-appearance: none
             )
         )
     )
