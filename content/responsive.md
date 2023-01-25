@@ -43,8 +43,8 @@ a le même effet que les classes CSS
 <style>
     body {
         padding: var(--ita-spacing-4);
-        background-color: var(--ita-color-primary-900);
-        color: var(--ita-color-primary-200);
+        background-color: var(--ita-color-primary-100);
+        color: var(--ita-color-primary-800);
         font-family: var(--ita-font-family-mono);
         font-size: 1rem;
         line-height: 1.5rem;
