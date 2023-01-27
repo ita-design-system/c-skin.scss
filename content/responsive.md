@@ -2,7 +2,7 @@
 title: Responsive
 description: Fonctionnalités responsive du composant c-skin
 layout: libdoc/page-split
-order: 100
+order: 90
 separator: true
 ---
 Si le paramètre `responsive: true` est activé, les modifieurs du composant c-skin sont adaptables à chaque design token de taille d'écran `$briks-screen-sizes` comme suit.

@@ -67,6 +67,36 @@ sidebar:
             title: <span class="i-github u-mr-xxs"></span> Voir sur GitHub # Link text
             order: 0 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
             separator: false
+        -   url: https://ita-design-system.github.io/c-dis.scss/ # Local or remote URL
+            title: Display | c-dis  # Link text
+            order: 200 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
+            separator: false
+            category: Composants génériques
+        -   url: https://ita-design-system.github.io/c-dim.scss/ # Local or remote URL
+            title: Dimensions | c-dim # Link text
+            order: 210 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
+            separator: false
+            category: Composants génériques
+        -   url: https://ita-design-system.github.io/c-pos.scss/ # Local or remote URL
+            title: Positionnement | c-pos # Link text
+            order: 220 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
+            separator: false
+            category: Composants génériques
+        -   url: https://ita-design-system.github.io/c-txt.scss/ # Local or remote URL
+            title: Textes | c-txt # Link text
+            order: 230 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
+            separator: false
+            category: Composants génériques
+        -   url: https://ita-design-system.github.io/c-skin.scss/ # Local or remote URL
+            title: Finitions | c-skin  # Link text
+            order: 240 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
+            separator: false
+            category: Composants génériques
+        -   url: https://ita-design-system.github.io/utilities.scss/ # Local or remote URL
+            title: Surcharges | Utilitaires # Link text
+            order: 250 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
+            separator: false
+            category: Composants génériques
         # -   url: /fonts/icomoon/demo.html # Local or remote URL
         #     title: Icon fonts # Link text
         #     order: # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
