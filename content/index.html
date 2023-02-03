@@ -5,22 +5,84 @@ unlisted: true
 ---
 <p>Ci-dessous des exemples de type bouton, élément idéal pour illustrer c-skin car affecté par la plupart des propriétés génériques de c-
 skin</p>
+<h2>Pointeurs</h2>
+<button>bouton</button>
 <button class="c-skin m-cur-pointer">m-cur-pointer</button>
+<button class="c-skin m-pe-none">m-pe-none</button>
+
+<h2>Transitions</h2>
 <button class="c-skin m-transition-1">m-transition-1</button>
+
+<h2>Transparences</h2>
 <button class="c-skin m-opa-0" title="opacité 0">m-opa-0</button>
+
+<h2>Bordures</h2>
 <button class="c-skin m-b-0">m-b-0</button>
+<button class="c-skin m-bt-0">m-bt-0</button>
+<button class="c-skin m-br-0">m-br-0</button>
+<button class="c-skin m-bb-0">m-bb-0</button>
+<button class="c-skin m-bl-0">m-bl-0</button>
+
+<h2>Styles de bordures</h2>
+<p class="c-skin m-bstyle-solid">m-bstyle-solid</p>
+<p class="c-skin m-btstyle-solid">m-btstyle-solid</p>
+<p class="c-skin m-brstyle-solid">m-brstyle-solid</p>
+<p class="c-skin m-bbstyle-solid">m-bbstyle-solid</p>
+<p class="c-skin m-blstyle-solid">m-blstyle-solid</p>
+
+<h2>Épaisseurs de bordures</h2>
+<p>Dans cet exemple on applique un style de bordure sans quoi l'épaisseur n'a aucun effet.</p>
+<p class="c-skin m-bstyle-solid m-bwidth-1">m-bwidth-1</p>
+<p class="c-skin m-bstyle-solid m-btwidth-1">m-btwidth-1</p>
+<p class="c-skin m-bstyle-solid m-brwidth-1">m-brwidth-1</p>
+<p class="c-skin m-bstyle-solid m-bbwidth-1">m-bbwidth-1</p>
+<p class="c-skin m-bstyle-solid m-blwidth-1">m-blwidth-1</p>
+
+<p class="c-skin m-bstyle-solid m-bwidth-2">m-bwidth-2</p>
+<p class="c-skin m-btstyle-solid m-btwidth-2">m-btwidth-2</p>
+<p class="c-skin m-brstyle-solid m-brwidth-2">m-brwidth-2</p>
+<p class="c-skin m-bbstyle-solid m-bbwidth-2">m-bbwidth-2</p>
+<p class="c-skin m-blstyle-solid m-blwidth-2">m-blwidth-2</p>
+
+<p class="c-skin m-bstyle-solid m-bwidth-3">m-bwidth-3</p>
+<p class="c-skin m-btstyle-solid m-btwidth-3">m-btwidth-3</p>
+<p class="c-skin m-brstyle-solid m-brwidth-3">m-brwidth-3</p>
+<p class="c-skin m-bbstyle-solid m-bbwidth-3">m-bbwidth-3</p>
+<p class="c-skin m-blstyle-solid m-blwidth-3">m-blwidth-3</p>
+
+<h2>Arrondis</h2>
+<p>Pour les besoins de cet exemple, un arrondi de 50 pixels a été déclaré.</p>
 <button class="c-skin m-brad-0">m-brad-0</button>
+<button class="c-skin m-bradtl-0">m-bradtl-0</button>
+<button class="c-skin m-bradtr-0">m-bradtr-0</button>
+<button class="c-skin m-bradbr-0">m-bradbr-0</button>
+<button class="c-skin m-bradbl-0">m-bradbl-0</button>
+
+<h2>Couleurs</h2>
 <button class="c-skin m-c-0">m-c-0</button>
 <button class="c-skin m-bc-0">m-bc-0</button>
-<button class="c-skin m-pe-none">m-pe-none</button>
+
+<h2>État désactivé</h2>
 <button class="c-skin m-disabled">m-disabled</button>
 <button class="c-skin" disabled>disabled</button>
-<br>
+
+<h2>Désactivation rendu par défaut</h2>
+<select>
+    <option>Select par défaut</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+</select>
 <select class="c-skin m-appearance-none">
     <option>Option 1</option>
     <option>Option 2</option>
     <option>Option 3</option>
 </select>
+
+<h2>Styles de listes</h2>
+<ul>
+    <li>Style de liste</li>
+    <li>Standard</li>
+</ul>
 <ul class="c-skin m-ls-none">
     <li>m-ls-none</li>
     <li>Pas de list-style</li>
@@ -28,12 +90,20 @@ skin</p>
 <!-- DEMO UNIQUEMENT -->
 <style>
     body {
-        padding: var(--ita-spacing-4);
-        background-color: var(--ita-color-primary-100);
+        padding: var(--ita-spacing-6);
+        background-color: ghostwhite;
         color: var(--ita-color-primary-800);
         font-family: var(--ita-font-family-mono);
         font-size: 1rem;
         line-height: 1.5rem;
         padding-bottom: 50vh;
+    }
+    button {
+        background-color: var(--ita-color-neutral-300);
+        color: var(--ita-color-neutral-900);
+        font-size: var(--ita-font-size-7);
+    }
+    [class*="c-skin m-brad"] {
+        border-radius: 50px;
     }
 </style>

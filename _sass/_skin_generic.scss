@@ -47,13 +47,129 @@ $briks-components-generic: (
             ls-none: (
                 list-style: none
             ),
+            // BORDERS
+            // BORDER STYLE
+            // c-skin m-bstyle-solid
+            bstyle-solid: (
+                border-style: solid
+            ),
+            // c-skin m-btstyle-solid
+            btstyle-solid: (
+                border-top-style: solid
+            ),
+            // c-skin m-brstyle-solid
+            brstyle-solid: (
+                border-right-style: solid
+            ),
+            // c-skin m-bbstyle-solid
+            bbstyle-solid: (
+                border-bottom-style: solid
+            ),
+            // c-skin m-blstyle-solid
+            blstyle-solid: (
+                border-left-style: solid
+            ),
+            // BORDER WIDTH
+            // c-skin m-bwidth-1
+            bwidth-1: (
+                border-width: 1px
+            ),
+            // c-skin m-btwidth-1
+            btwidth-1: (
+                border-top-width: 1px
+            ),
+            // c-skin m-brwidth-1
+            brwidth-1: (
+                border-right-width: 1px
+            ),
+            // c-skin m-bbwidth-1
+            bbwidth-1: (
+                border-bottom-width: 1px
+            ),
+            // c-skin m-blwidth-1
+            blwidth-1: (
+                border-left-width: 1px
+            ),
+            // c-skin m-bwidth-2
+            bwidth-2: (
+                border-width: 2px
+            ),
+            // c-skin m-btwidth-2
+            btwidth-2: (
+                border-top-width: 2px
+            ),
+            // c-skin m-brwidth-2
+            brwidth-2: (
+                border-right-width: 2px
+            ),
+            // c-skin m-bbwidth-2
+            bbwidth-2: (
+                border-bottom-width: 2px
+            ),
+            // c-skin m-blwidth-2
+            blwidth-2: (
+                border-left-width: 2px
+            ),
+            // c-skin m-bwidth-3
+            bwidth-3: (
+                border-width: 3px
+            ),
+            // c-skin m-btwidth-3
+            btwidth-3: (
+                border-top-width: 3px
+            ),
+            // c-skin m-brwidth-3
+            brwidth-3: (
+                border-right-width: 3px
+            ),
+            // c-skin m-bbwidth-3
+            bbwidth-3: (
+                border-bottom-width: 3px
+            ),
+            // c-skin m-blwidth-3
+            blwidth-3: (
+                border-left-width: 3px
+            ),
             // c-skin m-b-0
             b-0: (
                 border: none
             ),
+            // c-skin m-bt-0
+            bt-0: (
+                border-top: none
+            ),
+            // c-skin m-br-0
+            br-0: (
+                border-right: none
+            ),
+            // c-skin m-bb-0
+            bb-0: (
+                border-bottom: none
+            ),
+            // c-skin m-bl-0
+            bl-0: (
+                border-left: none
+            ),
+            // BORDER RADII
             // c-skin m-brad-0
             brad-0: (
                 border-radius: 0
+            ),
+            // c-skin m-bradtl-0
+            bradtl-0: (
+                border-top-left-radius: 0
+            ),
+            // c-skin m-bradtr-0
+            bradtr-0: (
+                border-top-right-radius: 0
+            ),
+            // c-skin m-bradbr-0
+            bradbr-0: (
+                border-bottom-right-radius: 0
+            ),
+            // c-skin m-bradbl-0
+            bradbl-0: (
+                border-bottom-left-radius: 0
             ),
             // c-skin m-c-0
             c-0: (
