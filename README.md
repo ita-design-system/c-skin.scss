@@ -238,7 +238,11 @@ $briks-components-generic: (
             // c-skin m-appearance-none
             appearance-none: (
                 -webkit-appearance: none
-            )
+            ),
+            // c-skin m-bs-0
+            bs-0: (
+                box-shadow: none
+            ),
         )
     )
 );
