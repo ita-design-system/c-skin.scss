@@ -229,6 +229,10 @@ $briks-components-generic: (
             pe-none: (
                 pointer-events: none
             ),
+            // c-skin m-pe-auto
+            pe-auto: (
+                pointer-events: auto
+            ),
             // c-skin m-disabled
             disabled: (
                 pointer-events: none,
