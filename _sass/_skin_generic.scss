@@ -31,14 +31,57 @@ $briks-components-generic: (
         // soit ajoutent des propriétés
         // soit les deux
         modifiers: ( 
+            // BACKGROUND
+            // c-skin m-bg-0
+            bg-0: (
+                background: none
+            ),
+            // c-skin m-bg-none
+            bg-none: (
+                background: none
+            ),
+            // BACKGROUND SIZE
+            // c-skin m-bsize-cover
+            bsize-cover: (
+                background-size: cover
+            ),
+            // c-skin m-bsize-contain
+            bsize-contain: (
+                background-size: contain
+            ),
+            // BACKGROUND REPEAT
+            // c-skin m-brep-no-repeat
+            brep-no-repeat: (
+                background-repeat: no-repeat
+            ),
+            // c-skin m-brep-repeat-x
+            brep-repeat-x: (
+                background-repeat: repeat-x
+            ),
+            // c-skin m-brep-repeat-y
+            brep-repeat-y: (
+                background-repeat: repeat-y
+            ),
+            // BACKGROUND POSITION
+            // c-skin m-bpos-center
+            bpos-center: (
+                background-position: center
+            ),
+            // POINTER
             // c-skin m-cur-pointer
             cur-pointer: (
                 cursor: pointer
+            ),
+            // TRANSITION
+            // c-skin m-transition-0
+            transition-0: (
+                transition: none
             ),
             // c-skin m-transition-1
             transition-1: (
                 transition: all 300ms
             ),
+            // OPACITY
             // c-skin m-opa-0
             opa-0: (
                 opacity: 0
