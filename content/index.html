@@ -19,7 +19,9 @@ skin</p>
 <button class="c-skin m-transition-1">m-transition-1</button>
 
 <h2>Transparences</h2>
-<button class="c-skin m-opa-0" title="opacité 0">m-opa-0</button>
+{% for i in (0..10) %}
+<button class="c-skin m-opa-{{i}}" title="opacité {{i}}">m-opa-{{i}}</button><br>
+{% endfor %}
 
 <h2>Bordures</h2>
 <button class="c-skin m-b-0">m-b-0</button>

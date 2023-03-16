@@ -89,6 +89,46 @@ $briks-components-generic: (
             opa-0: (
                 opacity: 0
             ),
+            // c-skin m-opa-1
+            opa-1: (
+                opacity: 0.1
+            ),
+            // c-skin m-opa-2
+            opa-2: (
+                opacity: 0.2
+            ),
+            // c-skin m-opa-3
+            opa-3: (
+                opacity: 0.3
+            ),
+            // c-skin m-opa-4
+            opa-4: (
+                opacity: 0.4
+            ),
+            // c-skin m-opa-5
+            opa-5: (
+                opacity: 0.5
+            ),
+            // c-skin m-opa-5
+            opa-6: (
+                opacity: 0.6
+            ),
+            // c-skin m-opa-7
+            opa-7: (
+                opacity: 0.7
+            ),
+            // c-skin m-opa-8
+            opa-8: (
+                opacity: 0.8
+            ),
+            // c-skin m-opa-9
+            opa-9: (
+                opacity: 0.9
+            ),
+            // c-skin m-opa-10
+            opa-10: (
+                opacity: 10
+            ),
             // c-skin m-ls-none
             ls-none: (
                 list-style: none
